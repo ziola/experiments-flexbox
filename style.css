@@ -1,0 +1,62 @@
+* { box-sizing: border-box; }
+
+body {
+	background-color: #232929;
+	margin: 0;
+}
+
+img {
+	display: block;
+	height: auto;
+	margin: 0 auto;
+	max-width: 100%;
+	width: 100%
+}
+
+nav {
+	background-color: #CCCCCC;
+	height: 3em;
+}
+
+ul.style-none {
+	list-style: none;
+	padding: 0;
+}
+
+/* Put behind .flexbox for Feature detection with Modernizr */
+.flexbox .flex-card-list {
+	display:flex;
+	flex-wrap:wrap;
+  	justify-content: space-around;
+
+}
+
+.flexbox .flex-card-listitem {				
+	display:flex;
+	margin: 1em;
+	border: solid 0.75em white;		
+	background-color: #CCCCCC; 		
+	width:15em;			
+}
+
+.flex-card {
+	width: 100%;
+}
+
+.flex-card-content {
+	padding: 0.5em;
+}
+
+.flex-card-metadata {
+	padding-top: 0.5em;
+}
+
+.search {
+	border: solid 0.25em white;
+	border-radius: 0.5em;
+	font-size: 3em;
+	width: 100%;
+	padding-left: 1em;
+	padding-right: 1em;
+	background-color: #CCCCCC;
+}
